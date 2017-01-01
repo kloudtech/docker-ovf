@@ -1,0 +1,9 @@
+*.pdf
+*.iso
+*.pyc
+*.swp
+*.bundle
+
+
+venv/
+.vagrant/

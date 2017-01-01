@@ -1,9 +1,9 @@
 # Version 0.1.0
-FROM ubuntu:14.04
+FROM ubuntu:16.04
 MAINTAINER Jakub Jarosz "jakub.jarosz@postpro.net"
+ENV REFRESHED_AT 2017-01-01
 
-
-RUN apt-get update \
+RUN apt-get -qq update \
     && apt-get install -y \
 	build-essential \
         wget \
